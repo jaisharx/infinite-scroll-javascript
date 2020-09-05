@@ -4,11 +4,34 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Infinite Scroll</title>
-        
-        <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
+
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
     </head>
     <body>
-        
+        <h1>My Blog</h1>
+        <div class="filter-container">
+            <input type="text" id="filter" class="filter" placeholder="Type here to filter result" />
+        </div>
+
+        <div id="post-container">
+            
+            <!-- <div class="post">
+                <div class="number">1</div>
+                <div class="post-info"><h2>Post One</h2></div>
+                <p class="post-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem hic provident,
+                    natus dolorum officia perferendis. Reiciendis corrupti enim assumenda molestiae.
+                </p>
+            </div> -->
+
+        </div>
+
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+
     </body>
 </html>
