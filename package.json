@@ -1,0 +1,19 @@
+{
+  "name": "infinite-scroll-javascript",
+  "version": "1.0.0",
+  "description": "simple infinite scroll app using the jsonplaceholder apis",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaisharx/infinite-scroll-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaisharx/infinite-scroll-javascript/issues"
+  },
+  "homepage": "https://github.com/jaisharx/infinite-scroll-javascript#readme"
+}
